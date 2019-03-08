@@ -5,3 +5,7 @@ When you initialize a git repository, it creates a .git folder in your current d
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is different from the working directory because can be committed to your local repository. It is different from the repository because it is not recorded in the log yet. It is valuable to utilize the staging area because it allows you to customize which changes you commit so that your commit messages can be meaningful and help during debugging.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+If you only want to commit changes to certain files, you can just git add <filename> for each file. When you have all of the files that you want to change staged, you can then commit with a meaningful message.
