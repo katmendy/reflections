@@ -1,0 +1,7 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository, it creates a .git folder in your current directory. You need to do this so that you can add and commit files to a local repository and keep track of all the changes that you commit.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory because can be committed to your local repository. It is different from the repository because it is not recorded in the log yet. It is valuable to utilize the staging area because it allows you to customize which changes you commit so that your commit messages can be meaningful and help during debugging.
