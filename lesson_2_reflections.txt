@@ -17,3 +17,12 @@ Branches would be helpful when experimenting with new features such as a nnew fu
 5) How do the diagrams help you visualize the branch structure?
 
 Diagrams help identify parent commits and what branches each change will effect. It also helps to indenitfy unreachable commits. It shows visually what branches you have access to, and the commits that each branch contains.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that the changes are combined in the final version. On the diagram this is shown as two branches converging which represents which commits are viewable within the log.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging makes the process more efficient and reliable in most cases, but it does not work in some cases. Doing merges manually, on the other hand, can be time consuming and error-prone, but it always works.
+
